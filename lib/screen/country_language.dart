@@ -489,7 +489,8 @@ class _GetLanguageState extends State<GetLanguage> {
                                     alignment: Alignment.center,
                                     child: AnimatedTextKit(
                                       animatedTexts: [
-                                        ColorizeAnimatedText('Shiva Kayakave Kailasa',
+                                        ColorizeAnimatedText(
+                                            'Shiva Kayakave Kailasa',
                                             textStyle: CommonStyles.grey15(),
                                             //  textAlign: TextAlign.right,
                                             colors: silverColors)

@@ -9,6 +9,7 @@ class TranslationModel {
     status = json['status'];
     message = json['message'];
     languageDetails = json['language_details'].cast<String>();
+    print('hallo$languageDetails');
   }
 
   Map<String, dynamic> toJson() {
@@ -16,6 +17,7 @@ class TranslationModel {
     data['status'] = this.status;
     data['message'] = this.message;
     data['language_details'] = this.languageDetails;
+    print('hola$data');
     return data;
   }
 }
